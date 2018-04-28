@@ -1,0 +1,7 @@
+source devel/setup.bash
+
+roslaunch iamfiscus_bot udacity_world.launch
+
+roslaunch iamfiscus_bot amcl.launch
+
+rosrun iamfiscus_bot navigation_goal
